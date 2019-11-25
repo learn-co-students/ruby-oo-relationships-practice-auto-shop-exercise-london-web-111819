@@ -24,7 +24,7 @@ class Car
   end
 
   # Get a list of mechanics that have an expertise that matches the car classification
-  def self.get_mechanics_by_expertise
-    
+  def get_mechanics_by_expertise
+    Mechanic.all.select{|mechanic| mechanic.specialty == self.classification}
   end
 end

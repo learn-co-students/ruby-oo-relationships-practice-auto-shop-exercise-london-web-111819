@@ -11,9 +11,11 @@ own3 = CarOwner.new('Owner3')
 mech1 = Mechanic.new('Mechanic1', 'exotic')
 mech2 = Mechanic.new('Mechanic2', 'business')
 mech3 = Mechanic.new('Mechanic3', 'clunker')
+mech4 = Mechanic.new('Mechanic4', 'exotic')
 
 
 car1 = Car.new('Beamer', '3-series', 'exotic', own1, mech1)
+car1_2 = Car.new('Chevvy', 'Random', 'clunker', own1, mech3)
 car2 = Car.new('Benz', 'E-class', 'business', own2, mech2)
 car3 = Car.new('Bentley', 'Bentayga', 'clunker', own3, mech3)
 
