@@ -20,7 +20,7 @@ class Car
 
   # Get a list of all car classifications
   def self.get_all_classifications
-    Car.all.map{|car| car.classification}
+    Car.all.map{|car| car.classification}.uniq
   end
 
   # Get a list of mechanics that have an expertise that matches the car classification
