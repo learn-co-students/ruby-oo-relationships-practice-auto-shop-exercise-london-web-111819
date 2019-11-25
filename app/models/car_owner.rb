@@ -24,15 +24,6 @@ class CarOwner
   def self.average_cars
     Car.all.length.to_f / self.all.length
   end
-
-
-  
-
-
- 
-
-
-
   
 end
 
