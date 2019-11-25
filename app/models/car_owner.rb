@@ -26,7 +26,7 @@ class CarOwner
 
   # Get a list of all the mechanics that a specific owner goes to
   def get_my_mechanics
-    get_my_cars.map{|car| car.mechanic}
+    get_my_cars.map{|car| car.mechanic}.uniq
   end
-
+  
 end

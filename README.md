@@ -12,29 +12,29 @@ Here's what we need to be able to do.
 
 **CarOwner**
 
-  - Get a list of all owners
+  - Get a list of all owners - Done.
 
-  - Get a list of all the cars that a specific owner has
+  - Get a list of all the cars that a specific owner has - Done.
 
-  - Get a list of all the mechanics that a specific owner goes to
+  - Get a list of all the mechanics that a specific owner goes to - Done.
 
-  - Get the average amount of cars owned for all owners
+  - Get the average amount of cars owned for all owners - Done.
 
 **Car**
 
-  - Get a list of all cars
+  - Get a list of all cars - Done.
 
-  - Get a list of all car classifications
+  - Get a list of all car classifications - Done.
 
-  - Get a list of mechanics that have an expertise that matches the car classification
+  - Get a list of mechanics that have an expertise that matches the car classification - Done.
 
 **Mechanic**
 
-  - Get a list of all mechanics
+  - Get a list of all mechanics - Done.
 
-  - Get a list of all cars that a mechanic services
+  - Get a list of all cars that a mechanic services - Done.
 
-  - Get a list of all the car owners that go to a specific mechanic
+  - Get a list of all the car owners that go to a specific mechanic - Done.
 
   - Get a list of the names of all car owners who
-  go to a specific mechanic
+  go to a specific mechanic - Done.
