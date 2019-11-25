@@ -16,7 +16,7 @@ class CarOwner
 
   # Get the average amount of cars owned for all owners
   def self.all_car_amount
-    Car.all.length / CarOwner.car.length
+    Car.all.length / CarOwner.all.length.to_f
   end
 
   # Get a list of all the cars that a specific owner has
